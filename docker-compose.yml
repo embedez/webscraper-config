@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  webscraper-node:
+    image: ghcr.io/embedez/webscrapper-node:latest
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.5'
