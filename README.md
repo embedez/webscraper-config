@@ -5,7 +5,7 @@
 kubectl apply -f https://raw.githubusercontent.com/embedez/webscraper-config/main/kubectl-deploy.yml
 ```
 
-### Deploy with Docker Compose:
+### Deploy with Docker:
 ```bash
-docker-compose -f https://raw.githubusercontent.com/embedez/webscraper-config/main/docker-compose.yml up -d
+docker run --name webscrapper-node -d ghcr.io/embedez/webscrapper-node:latest
 ```
