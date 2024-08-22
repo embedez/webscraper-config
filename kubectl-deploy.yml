@@ -22,9 +22,6 @@ spec:
       containers:
         - name: webscraper-node-container
           image: ghcr.io/embedez/webscrapper-node:latest
-          env:
-            - name: WS_URL
-              value: https://ws-webscraper.storage.gay
           resources:
             requests:
               memory: "512Mi"
