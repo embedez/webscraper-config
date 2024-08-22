@@ -1,4 +1,7 @@
 {
-  "WS_URL": "https://ws-webscraper.storage.gay",
-  "NEXT_URL": "https://webscraper.storage.gay"
+  "success": true,
+  "data": {
+    "hostname": "https://ws-webscraper.storage.gay",
+    "next_url": "https://webscraper.storage.gay"
+  }
 }
